@@ -1,7 +1,7 @@
 <template>
    <v-container grid-list-md text-xs-center>
     <v-layout row wrap>
-      <v-flex v-for="post in posts" :key="post.title" xs4>
+      <v-flex v-for="post in posts" :key="post.title" xs12 md4>
         <v-card >
           <Departure 
             :title="post.title" 

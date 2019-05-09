@@ -21,3 +21,6 @@ $ yarn run generate
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
 # oldteam-nuxt2
+
+# Uruchomienie produkcji 
+$ sudo pm2 start npm --name "oldteam.club" -- start
